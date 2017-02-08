@@ -3,6 +3,10 @@ sqlite3 cross compiled for Android with PIE enabled
  
 This is the sqlite3 pkg source code. 
 
+A LINK TO a prebuilt binary:
+
+https://drive.google.com/open?id=0B9WIkGjcMwgDUktaaTV3RjA0WTg
+
 BUILDING ON YOUR OWN:
 
 I cross compiled it to use on my Nexus 6 running 7.1.1. You must cross compile with the pie flags. The pie flags are used for systems where only position independent executables are supported.
@@ -13,6 +17,7 @@ The configure options I passed:
 If configure runs with no errors, then run make. Now you can push the exectuable to your device.
 
 USING THE PREBUILT BINARY:
+
 adb push sqlite3 /system/xbin/
 chmod 775 /system/xbin/sqlite3
 
