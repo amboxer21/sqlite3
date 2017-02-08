@@ -18,6 +18,8 @@ If configure runs with no errors, then run make. Now you can push the exectuable
 
 USING THE PREBUILT BINARY:
 
+There is a pre-built binary file for sqlite3 in the source. I compiled and built this program, "THEN" uploaded. The one above works fine and was compiled with the PIE flag. Enjoy!
+
 adb push sqlite3 /system/xbin/
 chmod 775 /system/xbin/sqlite3
 
